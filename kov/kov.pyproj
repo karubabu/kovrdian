@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="key.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="kov.py" />
   </ItemGroup>
   <PropertyGroup>
