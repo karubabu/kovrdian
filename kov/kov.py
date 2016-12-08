@@ -88,17 +88,5 @@ def main():
         if reloadtime_for_lib <= time.time():
             kovroid_texts = reload_kovroid_lib(api)
 
-
-
-
-
-
-           
-
-
-
- 
-
-
 if __name__ == '__main__':
     main()
