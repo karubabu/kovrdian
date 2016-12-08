@@ -7,6 +7,8 @@
 *.userosscache
 *.sln.docstates
 key.py
+*.pyc
+__pycache__/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -241,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/bfg-1.12.14.jar
