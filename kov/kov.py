@@ -38,8 +38,11 @@ def clean_text(kovroid_texts):
 def get_newmention(api):
     global SINCE_ID
     mention_tweets = api.mentions_timeline(since_id = SINCE_ID)
-    SINCE_ID = mention_tweets.since_id
+    
+    if mention_tweets == []:
+        return mention_tweets
 
+    SINCE_ID = mention_tweets.since_id
     return mention_tweets
 
 def check_kovri(mention_tweets,kovroid_texts):
